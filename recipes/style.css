@@ -1,0 +1,66 @@
+/* Classes
+Recipe Title = ttl
+Image = img
+Description box = desc
+Description title = desc head
+Description text = desc text
+Ingredient box = ing
+Ingredient head = ing head
+Ingredient list = ing list
+Steps box = steps
+Steps header = steps head
+Steps list = steps list
+*/
+
+
+.ttl{
+    display: block;
+    text-align: center;
+}
+
+.img{
+    display: block;
+    text-align: center;
+}
+
+.desc{
+    background-color:bisque;
+    text-align: center;
+    border-style: dotted;
+    margin-top: 10px;
+
+}
+
+.desc .head{
+    color: black;
+    background-color: bisque;
+    border-style: double;
+    border-color: black;
+}
+
+.desc .text{
+    color: black;
+    border-style: double;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.ing, .steps{
+    background-color: whitesmoke;
+    border-style: dashed;
+    border-width: 1px;
+    margin-top: 10px;
+}
+
+.ing .head, .steps .head{
+    padding-left:20px;
+    margin-bottom: -10px;
+    border-bottom-style: inset;
+    
+}
+
+.ing .list, .steps .list{
+    background-color: white;
+    margin-right:20px;
+    margin-left: 20px;
+}
